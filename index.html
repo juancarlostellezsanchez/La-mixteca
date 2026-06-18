@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Mixteca | Taquería de Birria Oaxaqueña</title>
+    <meta name="description" content="Auténtica birria de res con el toque oaxaqueño y nuestras inigualables tortillas hechas a mano.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="assets/logo.png" alt="Logo La Mixteca" class="logo">
+            <span class="brand-name">La Mixteca</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#el-plus">Nuestras Tortillas</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#contacto" class="btn-primary">Visítanos</a></li>
+        </ul>
+    </nav>
+
+    <header id="hero" class="hero">
+        <div class="hero-bg" style="background-image: url('assets/bg.png');"></div>
+        <div class="hero-content">
+            <img src="assets/logo.png" alt="La Mixteca Logo" class="hero-logo">
+            <h1>El Sabor de Oaxaca en cada Taco</h1>
+            <p>Descubre la auténtica birria de res con una explosión de color, tradición y el sabor inigualable de nuestra herencia.</p>
+            <a href="#el-plus" class="btn-primary btn-large">Descubre Nuestro Secreto</a>
+        </div>
+    </header>
+
+    <section id="el-plus" class="feature-section">
+        <div class="container">
+            <div class="feature-text">
+                <h2>El Diferenciador: <span class="highlight-pink">Tortillas Hechas a Mano</span></h2>
+                <p><strong>"Una birria de reyes merece una tortilla de verdad."</strong></p>
+                <p>En La Mixteca olvidamos las bolsas y las máquinas. Aquí molemos <strong>maíz nixtamalizado fresco</strong> todos los días para ofrecerte tortillas recién palmeadas en comal de barro.</p>
+                <p>Suaves, calientitas y con ese inconfundible aroma a México antiguo. El lienzo perfecto para el mejor taco de tu vida.</p>
+            </div>
+            <div class="feature-image-wrapper">
+                <div class="decoration-box color-blue"></div>
+                <img src="assets/tortillas.png" alt="Tortillas de maíz hechas a mano en comal" class="feature-image floating">
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2 class="section-title">Nuestro <span class="highlight-yellow">Menú Artesanal</span></h2>
+        
+        <div class="mosaic-grid">
+            <!-- Item 1: Taco -->
+            <div class="mosaic-card">
+                <img src="assets/tacos.png" alt="Taco de Birria Tradicional" class="mosaic-img">
+                <div class="mosaic-info">
+                    <div class="mosaic-header">
+                        <span class="mosaic-name">Taco Tradicional de Birria</span>
+                        <span class="mosaic-price">$28</span>
+                    </div>
+                    <p class="mosaic-desc">Suave carne de res sobre tortilla de maíz recién hecha a mano.</p>
+                </div>
+            </div>
+
+            <!-- Item 2: Quesabirria -->
+            <div class="mosaic-card featured">
+                <img src="assets/quesabirria.png" alt="Quesabirria" class="mosaic-img">
+                <div class="mosaic-info">
+                    <div class="mosaic-header">
+                        <span class="mosaic-name">La Quesabirria <span class="badge">Estrella</span></span>
+                        <span class="mosaic-price">$40</span>
+                    </div>
+                    <p class="mosaic-desc">Tortilla crujiente con queso asadero derretido y rica birria.</p>
+                </div>
+            </div>
+
+            <!-- Item 3: Volcan -->
+            <div class="mosaic-card">
+                <img src="assets/volcan.png" alt="Volcán de Birria" class="mosaic-img">
+                <div class="mosaic-info">
+                    <div class="mosaic-header">
+                        <span class="mosaic-name">Volcán de Birria</span>
+                        <span class="mosaic-price">$35</span>
+                    </div>
+                    <p class="mosaic-desc">Tostada crujiente al carbón, costra de queso y abundante carne.</p>
+                </div>
+            </div>
+
+            <!-- Item 4: Mulita -->
+            <div class="mosaic-card">
+                <img src="assets/tortillas.png" alt="Mulita Mixteca" class="mosaic-img">
+                <div class="mosaic-info">
+                    <div class="mosaic-header">
+                        <span class="mosaic-name">Mulita Mixteca</span>
+                        <span class="mosaic-price">$70</span>
+                    </div>
+                    <p class="mosaic-desc">Sándwich de dos tortillas hechas a mano, doble queso y abundante carne de tu preferencia.</p>
+                </div>
+            </div>
+            
+            <!-- Item 5: Consome -->
+            <div class="mosaic-card combo-box">
+                <div class="mosaic-info centered">
+                    <h3>🍲 Consomé de los Dioses</h3>
+                    <p>Plato de birria con carne y tortillas hechas a mano ilimitadas.</p>
+                    <span class="combo-price">$95 MXN</span>
+                </div>
+            </div>
+
+            <!-- Item 6: Promoción -->
+            <div class="mosaic-card combo-box secondary">
+                <div class="mosaic-info centered">
+                    <h3>🎁 Promoción Especial</h3>
+                    <p>En la compra de tus Tacos Tradicionales o Quesabirrias te invitamos la casa.</p>
+                    <span class="combo-price">¡Consomé Chico GRATIS!</span>
+                </div>
+            </div>
+
+            <!-- Item 7: Bistec -->
+            <div class="mosaic-card">
+                <img src="assets/tacos.png" alt="Taco de Bistec" class="mosaic-img">
+                <div class="mosaic-info">
+                    <div class="mosaic-header">
+                        <span class="mosaic-name">Taco de Bistec</span>
+                        <span class="mosaic-price">$28</span>
+                    </div>
+                    <p class="mosaic-desc">Jugoso bistec de res a la plancha, picado finamente.</p>
+                </div>
+            </div>
+
+            <!-- Item 8: Longaniza -->
+            <div class="mosaic-card">
+                <img src="assets/tacos.png" alt="Taco de Longaniza" class="mosaic-img">
+                <div class="mosaic-info">
+                    <div class="mosaic-header">
+                        <span class="mosaic-name">Taco de Longaniza</span>
+                        <span class="mosaic-price">$28</span>
+                    </div>
+                    <p class="mosaic-desc">Auténtica longaniza bien doradita y llena de sabor.</p>
+                </div>
+            </div>
+
+            <!-- Item 9: Campechanos -->
+            <div class="mosaic-card">
+                <img src="assets/tacos.png" alt="Taco Campechano" class="mosaic-img">
+                <div class="mosaic-info">
+                    <div class="mosaic-header">
+                        <span class="mosaic-name">Taco Campechano</span>
+                        <span class="mosaic-price">$28</span>
+                    </div>
+                    <p class="mosaic-desc">La mezcla perfecta de bistec y longaniza en un solo taco.</p>
+                </div>
+            </div>
+
+            <!-- Item 10: Alambre -->
+            <div class="mosaic-card featured">
+                <img src="assets/tortillas.png" alt="Taco de Alambre" class="mosaic-img">
+                <div class="mosaic-info">
+                    <div class="mosaic-header">
+                        <span class="mosaic-name">Taco de Alambre</span>
+                        <span class="mosaic-price">$28</span>
+                    </div>
+                    <p class="mosaic-desc">Mezcla de carnes, tocino, pimientos, cebolla y queso fundido.</p>
+                </div>
+            </div>
+
+            <!-- Item 11: Bebidas -->
+            <div class="mosaic-card combo-box" style="background: linear-gradient(135deg, var(--verde-esmeralda), var(--azul-cobalto)); border: none;">
+                <div class="mosaic-info centered">
+                    <h3 style="font-size: 1.6rem;">🥤 Bebidas</h3>
+                    <p style="color: white;">Agua de 1 Litro (Jamaica, Horchata, Tamarindo)<br>o <strong>Refrescos bien fríos.</strong></p>
+                    <span class="combo-price" style="color: #fff; font-size: 1.8rem; margin-top: 1rem;">$25 MXN</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto" class="footer">
+        <div class="footer-content">
+            <h3>La Mixteca</h3>
+            <p>Arte, Tradición y Sabor Oaxaqueño</p>
+            <p>📍 Av. San Pablo casi esquina con Av. del Peñón (Enfrente del Bamboo)</p>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 La Mixteca. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
