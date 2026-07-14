@@ -343,6 +343,20 @@ h1, h2, h3 {
     font-weight: 700;
 }
 
+.badge {
+    background: var(--rosa-mexicano);
+    color: #fff;
+    padding: 0.15rem 0.4rem;
+    font-size: 0.7rem;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-left: 0.4rem;
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
 .mosaic-price {
     font-size: 1.1rem;
     color: var(--rosa-mexicano);
